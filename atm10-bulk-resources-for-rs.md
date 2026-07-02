@@ -241,6 +241,131 @@ Nether Quartz seeds → essence → nether quartz
 
 ---
 
+## Setup: Ultra botany pots + Insanium farmland (tier 6)
+
+**Required mods:** Botany Pots, Bookshelf, Botany Pots Tiers, Botany Pots — Mystical Agriculture Compat, Mystical Agriculture, Mystical Agradditions.
+
+> Check **EMI** in-game — ATM may tweak recipes. Below is the **default mod** recipe chain (from mod JARs).
+
+### Phase 1 — Mystical Agriculture basics
+
+| Step | What to do |
+|------|------------|
+| 1 | Mine **Prosperity Ore** (Y ~24 to -60) and **Inferium Ore** |
+| 2 | Craft **Inferium Seeds** (8 inferium + wheat seeds) |
+| 3 | Grow inferium → craft **Infusion Crystal** (4 prosperity shards + 4 inferium + diamond) |
+| 4 | Upgrade essence tier by tier in a crafting table (crystal in center, reusable): |
+
+```
+4 Inferium   + crystal → 1 Prudentium
+4 Prudentium + crystal → 1 Tertium
+4 Tertium    + crystal → 1 Imperium
+4 Imperium   + crystal → 1 Supremium
+4 Supremium  + crystal → 1 Insanium   (Mystical Agradditions)
+```
+
+| 5 | Farm **Inferium Seeds** on essence farmland for steady inferium |
+| 6 | Unlock resource seeds you need (nether quartz = tier 3, etc.) via infusion altar |
+
+**Tip:** One **Master Infusion Crystal** (supremium-based, unlimited uses) saves a lot of hassle once you reach tier 5.
+
+### Phase 2 — Elite hopper pots (stepping stone)
+
+You need **Elite** pots before **Ultra**. Always craft **hopper** variants for automation.
+
+**Base hopper pot:** `Hopper` + `Botany Pot` (any color terracotta works).
+
+**Elite hopper pot** — shaped recipe (quick path, any color):
+
+```
+[H][T][E]     H = Hopper
+[T][P][T]     T = Terracotta
+[B][T][B]     E = Ender Pearl
+              P = Regular Botany Pot
+              B = Iron Block
+```
+
+**Alt:** upgrade an existing hopper pot — replace `P` with any **regular hopper botany pot** and drop the top `H`.
+
+Elite = **2× speed, 2× output**. Good enough to start bulk-farming while you push to Insanium.
+
+### Phase 3 — Insanium farmland (tier 6 soil for pots)
+
+Used as **soil inside botany pots** (+40% pot growth vs lower tiers).
+
+**Craft (1 per block):**
+
+```
+1 Insanium Essence + 1 Farmland → 1 Insanium Farmland
+```
+
+**Or in-world:** hoe dirt → right-click farmland with **Insanium Essence**.
+
+**Insanium essence cost:** 4 Supremium + 1 Infusion Crystal (center) → 1 Insanium.
+
+**Scale math (for planning):**
+
+| Goal | Insanium essence needed |
+|------|-------------------------|
+| 16 pot soils | 16 essence (= 64 supremium) |
+| 64 pot soils | 64 essence (= 256 supremium) |
+
+Farm inferium/supremium in Elite pots first, then mass-craft farmland once Insanium is online.
+
+### Phase 4 — Ultra hopper pots
+
+Ultra = **6× speed, 6× output**. Requires a **Nether Star** per pot.
+
+**Ultra hopper pot** — shaped recipe (quick path):
+
+```
+[H][T][★]     H = Hopper
+[T][P][T]     T = Terracotta
+[B][T][B]     ★ = Nether Star
+              P = Elite Botany Pot (non-hopper tag works on quick recipe)
+              B = Diamond Block
+```
+
+**Alt (cheaper if you already have elite hoppers):** same pattern but `P` = any **Elite Hopper Botany Pot** (no extra hopper in recipe).
+
+**Per ultra hopper pot (upgrade path):**
+
+| Material | Amount |
+|----------|--------|
+| Nether Star | 1 |
+| Diamond Block | 4 (36 diamonds) |
+| Terracotta | 4 |
+| Elite hopper pot | 1 |
+
+→ Set up a **wither farm** before mass-producing Ultra pots. You need stars for 256M+ RS disks anyway.
+
+### Phase 5 — Running the farm
+
+For each **Ultra Hopper Botany Pot**:
+
+1. Place pot
+2. Put **Insanium Farmland** in as soil (right-click pot)
+3. Put your **seed** in (nether quartz, silicon, QEI, etc.)
+4. Place **chest or RS interface** directly below — hopper pot auto-outputs
+5. Repeat in a grid; scale horizontally
+
+**Optional:** RS importer under each pot row, or drawer controller under the floor.
+
+### Minimum order of operations (checklist)
+
+```
+[ ] Inferium farm + infusion crystal
+[ ] Tier 3+ resource seeds (quartz / silicon / QEI)
+[ ] Elite hopper pots (ender pearls + iron blocks)
+[ ] Supremium essence line (automate 4→1 upgrades)
+[ ] Insanium essence + mass insanium farmland
+[ ] Wither farm → nether stars
+[ ] Ultra hopper pots
+[ ] Tile farm + RS autocraft for disk mats
+```
+
+---
+
 ## What NOT to rely on for bulk quartz
 
 | Method | Why |
